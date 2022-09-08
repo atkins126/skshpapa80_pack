@@ -30,11 +30,15 @@ package skshpapa80_pack;
 
 requires
   rtl,
-  vcl;
+  vcl,
+  vclimg;
 
 contains
   khXLS in 'khXLS.pas',
   khGrid in 'khGrid.pas',
-  khComponent in 'khComponent.pas';
+  khComponent in 'khComponent.pas',
+  khImage in 'khImage.pas',
+  khTrayIcon in 'khTrayIcon.pas',
+  khReport in 'khReport.pas';
 
 end.
